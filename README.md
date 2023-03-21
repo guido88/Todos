@@ -7,8 +7,14 @@ Here i used basic React features such as useState, useRef hooks, passing data wi
 ## Link
 https://guido88.github.io/Todos/
 
+---
+
 ## Usage
 
-### `npm install`
+Install
+---
+`npm install`
 
-### `npm start`
+Usage
+---
+`npm start`
