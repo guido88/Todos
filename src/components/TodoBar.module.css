@@ -1,0 +1,48 @@
+.todobar {
+  background-color: rgb(191, 237, 191);
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-left: 2%;
+  border-top: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filters {
+  margin-left: auto;
+  margin-right: calc(8% - 1rem);
+  display: flex;
+  gap: 0.8rem;
+}
+
+.filters > button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: rgb(53, 137, 180);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filters > button:focus {
+  border: 0.1px solid gray;
+  padding: 0.1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.8rem;
+  height: 1.4rem;
+}
+
+.icons > span:active {
+  border: 1px solid gray;
+}
+
+.separator {
+  display: inline-block;
+  height: 1rem;
+  width: 2px;
+  background-color: grey;
+}

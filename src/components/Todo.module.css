@@ -1,0 +1,26 @@
+.todo {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin-left: 2%;
+  padding: 0.5rem 0 0.5rem 0rem;
+}
+
+.actions {
+  margin-left: auto;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.actions > span:active {
+  border: 1px solid gray;
+}
+
+.task {
+  width: 90%;
+}
+
+.checkbox {
+  margin: 0;
+  margin-right: 0.1rem;
+}
